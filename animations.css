@@ -1,0 +1,163 @@
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  /*
+  
+                    vvvv DONT TOUCH vvvv
+  
+  */
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ @keyframes shake2 {
+    0% { transform: translate(0px, 0px);}
+    10% { transform: translate(-1px, 0px);}
+    20% { transform: translate(1px, 0px);} 
+    40% { transform: translate(0px, 0px); }
+    50% { transform: translate(-1px, 0px);} 
+    70% { transform: translate(0px, 0px); }
+    90% { transform: translate(1px, 0px); }
+    100% { transform: translate(0px, 0px); }
+  }
+
+  .searchT {
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+  }
+  .searchT {
+    animation-name: shake2;
+  }
+
+
+
+
+
+
+
+
+  @keyframes example {
+    from {max-width: 50%;opacity: 0%}
+    to {max-width: 60%; opacity: 100%}
+
+  }
+  @keyframes example1 {
+    from {max-width: 2%;opacity: 0%}
+    to {max-width: 4%; opacity: 100%}
+
+  }
+  @keyframes example2 {
+    from {max-width: 2%;opacity: 0%}
+    to {max-width: 3.5%; opacity: 100%}
+
+  }
+
+  .main3 {
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-delay: 0s;
+
+  transition: transform 180ms;
+
+
+  /* HOVER OFF */
+  }
+
+  .main3:hover {
+    transform: scale(1.04);
+
+  }
+
+
+  .main2 {
+
+
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+
+  animation-name: example1;
+  animation-duration: 4s;
+  animation-delay: 0s;
+
+  transition: transform 180ms;
+
+
+  /* HOVER OFF */
+  }
+
+  .main2:hover {
+    transform: scale(1.04);
+
+  }
+
+  .main {
+
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 0s;
+
+    transition: transform 250ms;
+
+
+    /* HOVER OFF */
+  }
+
+  .main:hover {
+    transform: scale(1.04);
+  }    transition: transform 250ms;
+
+
+    /* HOVER OFF */
+  }
+
+  .main:hover {
+    transform: scale(1.04);
+  }
